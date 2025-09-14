@@ -27,7 +27,8 @@ repos:
         args: [
             "-rn", # Only display messages
             "-sn", # Don't display the score
-            "--recursive=y"
+            "--recursive=y",
+            "--disable=C0301" # disable line-too-long
         ]
 -   repo: local
     hooks:
